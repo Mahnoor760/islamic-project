@@ -1,0 +1,74 @@
+body {
+    font-family: "jameel";
+    background-color: black;
+    color: #bd8908; /* Golden color */
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler-icon {
+    color: #bd8908; /* Golden color for navbar text */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand:hover {
+    color: #d4af37; }
+
+
+    body {
+        font-family: "jameel";
+        background-color: black;
+        color: #bd8908; 
+    }
+   
+    .navbar {
+        padding: 1rem 1.5rem; 
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        font-size: 1.25rem; 
+    }
+
+    .form-inline .form-control {
+        font-size: 1rem; 
+    }
+
+    .form-inline .btn {
+        font-size: 1rem; 
+    }
+
+
+    .card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-color: #d4af37;
+        border-width: 8px;  
+        color: #54530a; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    }
+    .card:hover {
+        transform: translateY(-20px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        border-color: #ad8b18; 
+    } 
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
